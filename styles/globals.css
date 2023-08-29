@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+  @apply hover:drop-shadow-lg shadow-zinc-100 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] p-3 rounded-lg hover:bg-zinc-700  transition-all duration-300 cursor-pointer;
+}
