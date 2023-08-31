@@ -8,7 +8,7 @@ interface Props {
 const SkillCard: React.FC<Props> = ({ title, imageName }) => {
   return (
     <div>
-      <div className="group flex flex-col items-center justify-between h-24 w-24 m-auto card">
+      <div className="group flex flex-col items-center justify-between h-24 w-24 m-auto p-3 card">
         <Image
           src={`/assets/logos/${imageName}.svg`}
           alt={title}

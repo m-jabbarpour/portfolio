@@ -19,7 +19,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="container py-8 flex flex-col gap-8">
+    <section className="container py-8">
       <SectionTitle title="Skills" />
       <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4">
         {skills.map((skill, index) => (
