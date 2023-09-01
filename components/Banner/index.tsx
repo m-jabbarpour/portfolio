@@ -17,7 +17,7 @@ const Banner = () => {
 
       <div className="text-zinc-200 text-base lg:text-4xl flex flex-col justify-around">
         <h1>
-          Hi, I'm <strong>Mortaza Jabbarpour</strong>
+          Hi, I&apos;m <strong>Mortaza Jabbarpour</strong>
         </h1>
         <span>A Front-End Developer Who Cares About</span>
         <TypeAnimation
