@@ -5,3 +5,19 @@
 .card {
   @apply hover:drop-shadow-lg shadow-zinc-100 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] rounded-lg hover:bg-zinc-800  transition-all duration-300 cursor-pointer;
 }
+
+.icon_button {
+  @apply p-1 rounded bg-transparent hover:bg-sky-400 transition-all duration-300
+}
+
+h6 {
+  @apply text-xl;
+}
+
+h5 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-3xl;
+}
