@@ -22,7 +22,7 @@ const ExperienceCard: React.FC<Props> = ({
       <div className="flex gap-2 mb-4">
         <Image
           src={`/assets/logos/${logoName}`}
-          alt="IT Shams"
+          alt={company}
           width={60}
           height={60}
         />
