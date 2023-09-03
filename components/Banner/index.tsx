@@ -1,8 +1,6 @@
-"use client";
-
 import Image from "next/image";
 
-import { TypeAnimation } from "react-type-animation";
+import TypingText from "./TypingText";
 
 const Banner = () => {
   return (
@@ -15,27 +13,19 @@ const Banner = () => {
         />
       </div>
 
-      <div className="text-zinc-200 text-base lg:text-4xl flex flex-col justify-around">
-        <h1>
-          Hi, I&apos;m <strong>Mortaza Jabbarpour</strong>
-        </h1>
-        <span>A Front-End Developer Who Cares About</span>
-        <TypeAnimation
-          preRenderFirstString
-          sequence={[
-            "Details",
-            1000,
-            "Clean Code",
-            1000,
-            "Performance",
-            1000,
-            "Design Patterns",
-            1000,
-          ]}
-          wrapper="span"
-          speed={10}
-          repeat={Infinity}
-        />
+      <div className="text-xl lg:text-3xl text-zinc-200 flex flex-col justify-around">
+        <span>
+          Hi, I&apos;m&nbsp;
+          <strong className="text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            Mortaza Jabbarpour
+          </strong>
+        </span>
+        <div className="flex flex-col sm:flex-row">
+          <span>A Front-End Developer&nbsp;</span>
+          <span>Who Cares About</span>
+        </div>
+
+        <TypingText />
       </div>
     </div>
   );
