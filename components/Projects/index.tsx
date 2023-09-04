@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Weather App",
     codeLink: "https://github.com/m-jabbarpour/weather-app",
-    visitLink: "https://github.com/m-jabbarpour/weather-app",
+    visitLink: "https://weather-app-m-jabbarpour.netlify.app/",
     descriptionItems: [
       "A mini-project developed using HTML, SCSS, and vanilla JavaScript",
     ],
