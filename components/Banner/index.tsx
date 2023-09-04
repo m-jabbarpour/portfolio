@@ -1,16 +1,22 @@
 import Image from "next/image";
 
 import TypingText from "./TypingText";
+import Contact from "./Contact";
 
 const Banner = () => {
   return (
     <div className="container py-8 flex flex-col sm:flex-row gap-8">
-      <div className="relative w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden bg-zinc-200 mx-auto sm:mx-0 shadow">
-        <Image
-          alt="Mortaza Jabbarpour"
-          src="/assets/images/profile.png"
-          fill={true}
-        />
+      <div className="flex justify-between">
+        <div className="relative w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden bg-zinc-200 sm:mx-0 shadow">
+          <Image
+            alt="Mortaza Jabbarpour"
+            src="/assets/images/profile.png"
+            fill={true}
+          />
+        </div>
+        <div className="sm:hidden ml-auto">
+          <Contact />
+        </div>
       </div>
 
       <div className="text-xl lg:text-3xl text-zinc-200 flex flex-col justify-around">
@@ -26,6 +32,9 @@ const Banner = () => {
         </div>
 
         <TypingText />
+      </div>
+      <div className="hidden sm:block ml-auto">
+        <Contact />
       </div>
     </div>
   );
