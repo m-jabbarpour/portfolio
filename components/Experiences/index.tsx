@@ -5,7 +5,7 @@ const experiences = [
   {
     role: "Front-End Developer",
     company: "IT Shams",
-    logoName: "itshams.svg",
+    logoName: "itshams",
     date: "Oct. 2022 - Present",
     link: "https://www.itshams.ir/",
     achievements: [
@@ -19,7 +19,7 @@ const experiences = [
   {
     role: "Front-End Developer Intern",
     company: "Maktab Sharif",
-    logoName: "maktab sharif.png",
+    logoName: "maktab sharif",
     date: "Feb. 2022, Sep. 2022",
     link: "https://maktabsharif.ir/",
     achievements: [

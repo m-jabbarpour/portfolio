@@ -21,7 +21,7 @@ const ExperienceCard: React.FC<Props> = ({
     <a href={link} target="_blank" className="group card py-4 px-5">
       <div className="flex gap-2 mb-4">
         <Image
-          src={`/assets/logos/${logoName}`}
+          src={`/assets/logos/${logoName}.svg`}
           alt={company}
           width={60}
           height={60}
