@@ -23,12 +23,17 @@ const skills = [
     link: "https://www.typescriptlang.org/",
   },
   { title: "React.js", imageName: "react", link: "https://react.dev/" },
-  { title: "Next.js", imageName: "next", link: "https://nextjs.org/" },
+  {
+    title: "React Query",
+    imageName: "react query",
+    link: "https://tanstack.com/query/latest/",
+  },
   {
     title: "React Router",
     imageName: "react router",
     link: "https://reactrouter.com/en/main",
   },
+  { title: "Next.js", imageName: "next", link: "https://nextjs.org/" },
   {
     title: "Redux Toolkit",
     imageName: "redux",
