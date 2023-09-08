@@ -11,7 +11,8 @@ const experiences = [
     achievements: [
       " Working on an enterprise Suggestion System web application (React.js) for large companies and organizations, including Iran Khodro Co. (with 60k+ users) and Tabriz Municipality (with 10k+ users)",
       "Worked with Material UI (for user interface), AG Grid and High-Charts (for representation of large data), SignalR (for web socket connections), Axios (for Rest API connections), Context API (for state management), and React Hook Form and Yup (for form handling and validation)",
-      "Implemented reusable components and custom hooks, resulting in asignificant reduction of over 90% in redundant code and a streamlined development process, resulting in a time-saving of over 20%.",
+      "Implemented reusable components and custom hooks, resulting in a significant reduction of over 90% in redundant code and a streamlined development process, resulting in a time-saving of over 20%",
+      "Implemented the client caching system using React Query, leading to a remarkable reduction in repeated API calls",
       "Refactored the code base according to the best practices and design patterns, improving the performance by reducing unnecessary rerenders by more than 80%.",
       "Communicated with the technical lead and the back-end development team to create a user-friendly UI and UX",
     ],
