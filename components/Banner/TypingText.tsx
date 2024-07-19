@@ -2,20 +2,13 @@
 
 import { TypeAnimation } from "react-type-animation";
 
+import { typingItems } from "@/constants";
+
 const TypingText = () => {
   return (
     <TypeAnimation
       preRenderFirstString
-      sequence={[
-        "Details",
-        1000,
-        "Clean Code",
-        1000,
-        "Performance",
-        1000,
-        "Design Patterns",
-        1000,
-      ]}
+      sequence={typingItems}
       wrapper="span"
       speed={10}
       repeat={Infinity}

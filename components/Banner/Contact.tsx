@@ -1,22 +1,11 @@
 import Image from "next/image";
 
-const items = [
-  {
-    title: "LinkedIn",
-    imageName: "linkedin",
-    link: "https://www.linkedin.com/in/mortaza-jabbarpour/",
-  },
-  {
-    title: "GitHub",
-    imageName: "github",
-    link: "https://github.com/m-jabbarpour",
-  },
-];
+import { contactItems } from "@/constants";
 
 const Contact = () => {
   return (
     <div className="flex flex-col justify-around h-full">
-      {items.map((item, index) => (
+      {contactItems.map((item, index) => (
         <a key={index} href={item.link} target="_blank">
           <Image
             src={`/assets/logos/${item.imageName}.svg`}
