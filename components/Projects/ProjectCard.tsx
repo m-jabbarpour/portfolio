@@ -38,7 +38,9 @@ const ProjectCard: React.FC<Props> = ({
       </div>
       <ul className="list-disc text-zinc-200 group-hover:text-zinc-100 pl-5">
         {descriptionItems.map((item, index) => (
-          <li key={index} className="mb-2">{item}</li>
+          <li key={index} className="mb-2 whitespace-pre-wrap">
+            {item}
+          </li>
         ))}
       </ul>
     </div>

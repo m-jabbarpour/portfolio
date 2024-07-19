@@ -61,3 +61,25 @@ export const experiences = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: "Book Store App",
+    codeLink: "https://github.com/m-jabbarpour/book-store-app-2",
+    visitLink: "https://book-store-app-2.netlify.app/",
+    descriptionItems: [
+      "Developed using TypeScript, Next.js, Tailwind CSS, and Redux Toolkit",
+      "CSR, SSR, and SSG strategies",
+      "Light and Dark modes",
+      "Lighthouse Scores:\nPerformance: 90, Accessibility: 94, Best Practices: 95, SEO: 91",
+    ],
+  },
+  {
+    title: "Weather App",
+    codeLink: "https://github.com/m-jabbarpour/weather-app",
+    visitLink: "https://weather-app-m-jabbarpour.netlify.app/",
+    descriptionItems: [
+      "A mini-project developed using HTML, SCSS, and vanilla JavaScript",
+    ],
+  },
+];
